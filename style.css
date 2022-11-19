@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@200;300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap');
+
+
+
+
+body{
+ background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    font-family: 'Varela Round', sans-serif;
+    color: aliceblue;
+  
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 69px;
+    background-color: black;
+    color: aliceblue;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.haha{
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+
+.brand img{
+   width: 59px;
+
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif ;
+    color :aliceblue;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    
+}
+
+.container1{
+    min-height: 70vh;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif ;
+    color :aliceblue;
+    display: flex;
+    margin: 23px auto;
+    width: 50%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('music.jpg');
+    color: white;
+   
+}
+
+
+
+.bottom{
+display: flex;
+position: sticky;
+height: 130px;
+bottom: 0;
+background-color: black;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+flex-direction: column;
+
+}
+#myProgressBar{
+    width: 80vw;
+    color: red;
+    
+}
+
+.icon{
+    margin: 14px;
+    
+}
+.icon i{
+    cursor: pointer;
+    
+}
+
+.songItemContainer{
+    margin-top: 70px;
+}
+
+
+
+
+
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgb(193, 13, 13);
+    color: rgb(1, 1, 1);
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+
+
+
+
+
+
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 15px;
+    
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.container2{
+    min-height: 70vh;
+    background-color: black;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif ;
+    color :aliceblue;
+    display: flex;
+    margin: 23px auto;
+    width: 50%;
+    border-radius: 12px;
+    padding: 34px;
+    
+    color: white;
+   
+}
+
+.login{
+
+
+ width: 380px;
+ height: 480px;
+ position: relative;
+margin: 6% auto;
+background: black;
+padding: 5px;
+
+
+
+
+}
+
+.buttonbox{
+
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.togglebtn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: center;
+  color: aliceblue;
+
+}
+
+.icon2{
+    margin: 30px auto;
+    text-align: center;
+
+
+
+
+
+
+}
+
+.icon2 i{
+   width: 30px;
+   margin: 0 12px;
+   box-shadow: 0 0 30px black;
+   cursor: pointer;
+   border-radius: 50px;
+   
+}
+
+.input{
+
+  top:180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+
+
+
+
+}
+
+.input-field{
+
+  width: 100%
+  padding :10px 0;
+  margin: 5px;
+  border-left:0;
+  border-right:0;
+  border-top: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+  color:white;
+
+
+
+
+}  
+
+
+.submit-btn{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient();
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+
+
+
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+
+
+}
+
+.sp{
+
+   color: #777;
+   font-size: 12px;
+   bottom: 68px;
+   position: absolute;
+}
